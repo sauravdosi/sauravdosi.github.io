@@ -1,0 +1,59 @@
+- title: AI Researcher
+  company: <a href="https://labs.utdallas.edu/irvl/">Intelligent Robotics and Vision Lab, UTD</a>
+  date: Oct 2023 - Present
+  points:
+    - Efficient Long Horizon Robot Exploration.
+    - FetchNav starter kit in NVIDIA Isaac Sim.
+    - Talks on Diffusion and RL in Robotics.
+  tech_stack: [Computer Vision, Robotics, Vision-Language Models, Reinforcement Learning, Diffusion]
+  icon: /assets/img/utd.png
+
+- title: Data Science (NLP) Intern
+  company: <a href="https://www.isnetworld.com/en/">ISN</a>
+  date: June 2024 - Aug 2024
+  points:
+    - Intelligent BiLSTM-Attention Name Matching.
+    - 75% cost reduction, 50% speed up.
+    - 98% accuracy, extended to 3+ projects.
+  tech_stack: [NLP, Deep Learning, Tensorflow, SQL, Alteryx]
+  icon: /assets/img/
+
+- title: Machine Learning Engineer
+  company: <a href="https://www.quantrium.ai/">Quantrium AI</a>
+  date: July 2021 - July 2023
+  points:
+    - Led an Intelligent Shelf Auditor team.
+    - Led a Bank Statements Analytics team.
+    - Led and built Document Sender Identifier.
+    - Interviewed over 50 ML candidates.
+  tech_stack: [Computer Vision, NLP, Software Development, Leadership, Hiring]
+  icon: /assets/img/quantrium.png
+
+- title: AI Engineer
+  company: <a href="https://mirrag.in/">Mirrag AI</a>
+  date: April 2021 - June 2021
+  points:
+    - Built Licence Plate Recognizer product.
+    - Built early Fire Detection product.
+  tech_stack: [Computer Vision, Object Detection, OCR, SQL]
+  icon: /assets/img/utd.png
+
+- title: Data Science Intern
+  company: <a href="https://www.expressanalytics.com/">Express Analytics</a>
+  date: September 2020 - January 2021
+  points:
+    - Developed multilingual Sentiment product.
+    - Researched Fake Reviews Detection.
+    - Contributed to Analytics Dashboard.
+  tech_stack: [NLP, Machine Learning, SQL, Data Science, Python]
+  icon: /assets/img/utd.png
+
+- title: Grader/Teaching Assistant
+  company: <a href="https://www.utdallas.edu/">The University of Texas at Dallas</a>
+  date: September 2024 - Present
+  points:
+    - Grade CS 3345 - Data Structures and Algorithms.
+    - Automate grading process to save 50% time.
+    - Mentor over 70 students.
+  tech_stack: [Data Structures, Algorithms, Java, Python, Selenium]
+  icon: /assets/img/

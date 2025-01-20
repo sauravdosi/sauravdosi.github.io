@@ -1,0 +1,7 @@
+<figure class="{{ include.class | default: '' }}">
+  <img src="{{ include.src }}" alt="{{ include.alt | default: 'Image' }}"
+       class="{{ include.img_class | default: '' }}"
+       width="{{ include.width | default: '100' }}"
+       height="{{ include.height | default: '100' }}"
+       style="object-fit: cover; border-radius: 50%; border: 2px solid #ddd; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+</figure>
