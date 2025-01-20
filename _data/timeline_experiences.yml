@@ -1,13 +1,3 @@
-- title: Grader/Teaching Assistant
-  company: <a href="https://www.utdallas.edu/">The University of Texas at Dallas</a>
-  date: September 2024 - Present
-  points:
-    - Grade CS 3345 - Data Structures and Algorithms.
-    - Automate grading process to save 50% time.
-    - Mentor over 70 students.
-  tech_stack: [Data Structures, Algorithms, Java, Python, Selenium]
-  icon: /assets/img/
-
 - title: AI Researcher
   company: <a href="https://labs.utdallas.edu/irvl/">Intelligent Robotics and Vision Lab, UTD</a>
   date: Oct 2023 - Present
@@ -17,6 +7,16 @@
     - Talks on Diffusion and RL in Robotics.
   tech_stack: [Computer Vision, Robotics, Vision-Language Models, Reinforcement Learning, Diffusion]
   icon: /assets/img/utd.png
+
+- title: Grader/Teaching Assistant
+  company: <a href="https://www.utdallas.edu/">The University of Texas at Dallas</a>
+  date: September 2024 - Present
+  points:
+    - Grade CS 3345 - Data Structures and Algorithms.
+    - Automate grading process to save 50% time.
+    - Mentor over 70 students.
+  tech_stack: [Data Structures, Algorithms, Java, Python, Selenium]
+  icon: /assets/img/
 
 - title: Data Science (NLP) Intern
   company: <a href="https://www.isnetworld.com/en/">ISN</a>
