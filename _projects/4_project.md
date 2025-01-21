@@ -3,7 +3,7 @@ layout: page
 title: "FetchNavIsaac: Robot Navigation Toolkit"
 description: An NVIDIA Isaac Sim Navigation starter kit with Sensor Simulation and Vision models. 
 img: assets/img/fetch_nav_isaac.gif
-importance: 3
+importance: 6
 category: research
 ---
 <section id="badgeproj-section">

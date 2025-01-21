@@ -3,7 +3,7 @@ layout: page
 title: "Intelligent Name Matching"
 description: A BiLSTM-Attention model trained to prioritize keywords based on their Semantic role in a given Organization name.
 img: assets/img/inm.png
-importance: 4
+importance: 2
 category: research
 ---
 <section id="badgeproj-section">

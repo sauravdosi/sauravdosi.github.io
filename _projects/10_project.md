@@ -3,7 +3,7 @@ layout: page
 title: "Stair KeyDet: Keypoint Detection"
 description: "A keypoint and person detection system for real-time staircase violation alerts using edge AI and camera feeds."
 img: assets/img/keypoint_detect.jpeg
-importance: 6
+importance: 7
 category: research
 ---
 <section id="badgeproj-section">

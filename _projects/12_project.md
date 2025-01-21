@@ -3,7 +3,7 @@ layout: page
 title: "IRVL Talk: NoMaD"
 description: "A study and presentation talk on NoMaD: Goal Masked Diffusion Policies for Navigation and Exploration."
 img: assets/img/nomad.png
-importance: 3
+importance: 4
 category: research
 ---
 <section id="badgeproj-section">

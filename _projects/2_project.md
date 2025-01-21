@@ -3,7 +3,7 @@ layout: page
 title: "InvestAID: AI powered Investment Dashboard"
 description: "AI application that integrates ChatGPT 3.5, Google Stock Trends, and alternative data sources like news sentiments and social media trends, using advanced web scraping, sentiment analysis, topic classification, and few-shot meta-learning to predict Investible pointers."
 img: assets/img/investaid.png
-importance: 2
+importance: 1
 category: academic
 ---
 <section id="badgeproj-section">

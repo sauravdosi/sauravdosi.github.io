@@ -3,7 +3,7 @@ layout: page
 title: "GDBWat: Graph DB Watermarking"
 description: Implemented a secure and robust graph database watermarking method using pseudo-nodes to ensure data integrity and ownership verification.
 img: assets/img/gdb.png
-importance: 4
+importance: 3
 category: research
 ---
 <section id="badgeproj-section">
