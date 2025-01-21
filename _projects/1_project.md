@@ -39,6 +39,15 @@ related_publications: false
 
 **Course**: CS 6301 - Robotics, taught by [Dr. Yu Xiang](https://yuxng.github.io/), The University of Texas at Dallas
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/dog/dog.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Project Demo GIF.
+</div>
+
 ## 1. Abstract
 Robotic grasping has always been a fascinating challenge—especially when it comes to grabbing objects on the move. In this project, we tackled the problem of efficiently and accurately grasping a dynamic object traveling along a predictable (deterministic) path.
 
