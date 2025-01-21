@@ -7,7 +7,7 @@ importance: 4
 category: research
 ---
 <section id="badgeproj-section">
-<h2 class="badgeproj-title">Tech Stack 💻</h2>
+<h2 class="badgeproj-title">Tech Stack 💻 & Resources📚</h2>
   <div class="badgeproj-container">
     <span class="badgeproj">NLP</span>
     <span class="badgeproj">BiLSTM + Attention</span>

@@ -283,7 +283,63 @@
       "highlights": [],
       "startDate": "2024-09-01",
       "endDate": "2024-12-15",
-      "url": "http://localhost:8080/about/projects/1_project/"
+      "url": "https://www.sauravdosi.com/projects/1_project/"
+    },
+    {
+      "name": "Intelligent Name Matching",
+      "summary": "A BiLSTM-Attention model trained to prioritize keywords based on their Semantic role in a given Organization name.",
+      "highlights": [],
+      "startDate": "2024-06-03",
+      "endDate": "2024-08-10",
+      "url": "https://www.sauravdosi.com/projects/11_project/"
+    },
+    {
+      "name": "GDBWat: Graph DB Watermarking",
+      "summary": "Implemented a secure and robust graph database watermarking method using pseudo-nodes to ensure data integrity and ownership verification.",
+      "highlights": [],
+      "startDate": "2024-09-01",
+      "endDate": "2024-12-15",
+      "url": "https://www.sauravdosi.com/projects/5_project/"
+    },
+    {
+      "name": "IRVL Talk: NoMaD",
+      "summary": "A study and presentation talk on NoMaD: Goal Masked Diffusion Policies for Navigation and Exploration.",
+      "highlights": [],
+      "startDate": "2024-02-01",
+      "endDate": "2024-03-01",
+      "url": "https://www.sauravdosi.com/projects/12_project/"
+    },
+    {
+      "name": "IRVL Talk: Real-world Mobile Manipulation with RL",
+      "summary": "A study and presentation talk on Continuously Improving Mobile Manipulation with Autonomous Real-World RL.",
+      "highlights": [],
+      "startDate": "2024-10-01",
+      "endDate": "2024-11-01",
+      "url": "https://www.sauravdosi.com/projects/13_project/"
+    },
+    {
+      "name": "FetchNavIsaac: Robot Navigation Toolkit",
+      "summary": "An NVIDIA Isaac Sim Navigation starter kit with Sensor Simulation and Vision models.",
+      "highlights": [],
+      "startDate": "2024-03-01",
+      "endDate": "2024-04-01",
+      "url": "https://www.sauravdosi.com/projects/4_project/"
+    },
+    {
+      "name": "InvestAID: AI powered Investment Dashboard",
+      "summary": "AI application that integrates ChatGPT 3.5, Google Stock Trends, and alternative data sources like news sentiments and social media trends, using advanced web scraping, sentiment analysis, topic classification, and few-shot meta-learning to predict Investible pointers.",
+      "highlights": [],
+      "startDate": "2023-11-24",
+      "endDate": "2023-11-25",
+      "url": "https://www.sauravdosi.com/projects/2_project/"
+    },
+    {
+      "name": "Stair KeyDet: Keypoint Detection",
+      "summary": "A keypoint and person detection system for real-time staircase violation alerts using edge AI and camera feeds.",
+      "highlights": [],
+      "startDate": "2021-04-24",
+      "endDate": "2021-05-10",
+      "url": "https://www.sauravdosi.com/projects/10_project/"
     }
   ]
 }
