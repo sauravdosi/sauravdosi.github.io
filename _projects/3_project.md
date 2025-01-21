@@ -4,7 +4,7 @@ title: "NavRL: Robot Navigation using RL"
 description: a project that redirects to another website
 img: assets/img/publication_preview/fruitsort.gif
 importance: 3
-category: research
+category: fun
 ---
 <section id="badgeproj-section">
 <h2 class="badgeproj-title">Tech Stack 💻</h2>
