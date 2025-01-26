@@ -4,7 +4,7 @@
     "label": "AI Researcher and Professional",
     "image": "",
     "email": "sauravdosi@gmail.com, saurav.dosi@utdallas.edu",
-    "phone": "(945) 274-3058",
+    "phone": "+1 (945) 274-3058",
 //    "url": "",
     "summary": "AI researcher with 3+ years in Computer Vision and NLP, and 1+ year in Robotics research, specializing in innovative solutions in Multimodal AI and Robot Navigation.",
     "location": {
@@ -91,63 +91,6 @@
   "highlights": ["Data Structures and Algorithms: Automate code grading to save 50% time, along with grading assignments, and exams for CS3345 - Data Structures and Algorithms, a class of 140 students.; Mentor students for improved understanding during office hours."]
       }
   ],
-  "education": [
-    {
-      "institution": "The University of Texas at Dallas",
-      "location": "Dallas, Texas",
-      "url": "https://www.utdallas.edu/",
-      "area": "Computer Science - Intelligent Systems Track",
-      "studyType": "Master of Science",
-      "startDate": "2023-08-01",
-      "endDate": "2025-12-01 (Expected)",
-      "score": "3.97",
-      "courses": ["Independent Research", "Artificial Intelligence", "Computer Vision", "Natural Language Processing", "Machine Learning", "Robot Manipulation and Navigation",
-      "Statistics for Data Science"]
-    },
-    {
-      "institution": "Indian Institute of Technology Dharwad",
-      "location": "Dharwad, India",
-      "url": "https://www.iitdh.ac.in/",
-      "area": "Mechanical Engineering, Minor in Machine Learning",
-      "studyType": "Bachelor of Technology",
-      "startDate": "2017-07-01",
-      "endDate": "2021-05-01",
-      "score": "3.64",
-      "courses": ["Deep Learning", "Machine Learning", "Robotics"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Jonsson School Dean's Graduate Scholarship",
-      "date": "2023-05-01",
-      "awarder": "Erik Jonsson School of Engineering and Computer Science, UTD",
-      "url": "https://engineering.utdallas.edu/academics/graduate-education/graduate-funding-opportunities/",
-      "summary": "A merit-based scholarship with 50% tuition funding for Fall 2023 and Spring 2024 semesters."
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Microsoft Certified: Azure AI Fundamentals",
-      "date": "2024-07",
-      "issuer": "Microsoft",
-      "url": "https://learn.microsoft.com/en-gb/users/sauravnitindosi-0285/transcript/76pquog99ynwnxd",
-      "icon": "fa-solid fa-clipboard-check"
-    },
-    {
-      "name": "Deep Learning Specialization",
-      "date": "2020-08-01",
-      "issuer": "Coursera",
-      "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/BQ462N9R7DS6",
-      "icon": "fa-solid fa-clipboard-check"
-    },
-    {
-      "name": "Machine Learning",
-      "date": "2020-08-01",
-      "issuer": "Coursera: Stanford University",
-      "url": "https://www.coursera.org/account/accomplishments/certificate/FUAMGLR7UBJ4",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
   "publications": [
     {
       "name": "Segregation of Areca Nuts Using Three Band Photometry and Deep Neural Network",
@@ -155,6 +98,72 @@
       "releaseDate": "2022-03",
       "url": "https://doi.org/10.1007/978-3-031-05767-0_2",
       "summary": "Designed and implemented a 90% accurate machine prototype for automated fruit sorting, utilizing a quantized YOLOv3 object detection model with 1 FPS on a Raspberry Pi 4 for high-precision quality classification, significantly improving agricultural processing efficiency."
+    }
+  ],
+  "projects": [
+    {
+      "name": "DOG: Dynamic Object Grasping",
+      "summary": "Robotic grasping of object moving on 2D Deterministic Path with real-time Recursive Least Squares motion prediction.",
+      "highlights": [],
+      "startDate": "2024-09-01",
+      "endDate": "2024-12-15",
+      "url": "https://www.sauravdosi.com/projects/1_project/"
+    },
+    {
+      "name": "Intelligent Name Matching",
+      "summary": "A BiLSTM-Attention model trained to prioritize keywords based on their Semantic role in a given Organization name.",
+      "highlights": [],
+      "startDate": "2024-06-03",
+      "endDate": "2024-08-10",
+      "url": "https://www.sauravdosi.com/projects/11_project/"
+    },
+    {
+      "name": "GDBWat: Graph DB Watermarking",
+      "summary": "Implemented a secure and robust graph database watermarking method using pseudo-nodes to ensure data integrity and ownership verification.",
+      "highlights": [],
+      "startDate": "2024-09-01",
+      "endDate": "2024-12-15",
+      "url": "https://www.sauravdosi.com/projects/5_project/"
+    },
+    {
+      "name": "IRVL Talk: NoMaD",
+      "summary": "A study and presentation talk on NoMaD: Goal Masked Diffusion Policies for Navigation and Exploration.",
+      "highlights": [],
+      "startDate": "2024-02-01",
+      "endDate": "2024-03-01",
+      "url": "https://www.sauravdosi.com/projects/12_project/"
+    },
+    {
+      "name": "IRVL Talk: Real-world Mobile Manipulation with RL",
+      "summary": "A study and presentation talk on Continuously Improving Mobile Manipulation with Autonomous Real-World RL.",
+      "highlights": [],
+      "startDate": "2024-10-01",
+      "endDate": "2024-11-01",
+      "url": "https://www.sauravdosi.com/projects/13_project/"
+    },
+    {
+      "name": "FetchNavIsaac: Robot Navigation Toolkit",
+      "summary": "An NVIDIA Isaac Sim Navigation starter kit with Sensor Simulation and Vision models.",
+      "highlights": [],
+      "startDate": "2024-03-01",
+      "endDate": "2024-04-01",
+      "url": "https://www.sauravdosi.com/projects/4_project/"
+    },
+    {
+      "name": "InvestAID: AI powered Investment Dashboard",
+      "summary": "AI application that integrates ChatGPT 3.5, Google Stock Trends, and alternative data sources like news sentiments and social media trends, using advanced web scraping, sentiment analysis, topic classification, and few-shot meta-learning to predict Investible pointers.",
+      "highlights": [],
+      "startDate": "2023-11-24",
+      "endDate": "2023-11-25",
+      "url": "https://www.sauravdosi.com/projects/2_project/"
+    },
+    {
+      "name": "Stair KeyDet: Keypoint Detection",
+      "summary": "A keypoint and person detection system for real-time staircase violation alerts using edge AI and camera feeds.",
+      "highlights": [],
+      "startDate": "2021-04-24",
+      "endDate": "2021-05-10",
+      "url": "https://www.sauravdosi.com/projects/10_project/"
     }
   ],
   "skills": [
@@ -259,6 +268,63 @@
       ]
     }
   ],
+  "certificates": [
+    {
+      "name": "Microsoft Certified: Azure AI Fundamentals",
+      "date": "2024-07",
+      "issuer": "Microsoft",
+      "url": "https://learn.microsoft.com/en-gb/users/sauravnitindosi-0285/transcript/76pquog99ynwnxd",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Deep Learning Specialization",
+      "date": "2020-08-01",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/BQ462N9R7DS6",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Machine Learning",
+      "date": "2020-08-01",
+      "issuer": "Coursera: Stanford University",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/FUAMGLR7UBJ4",
+      "icon": "fa-solid fa-clipboard-check"
+    }
+  ],
+  "education": [
+    {
+      "institution": "The University of Texas at Dallas",
+      "location": "Dallas, Texas",
+      "url": "https://www.utdallas.edu/",
+      "area": "Computer Science - Intelligent Systems Track",
+      "studyType": "Master of Science",
+      "startDate": "2023-08-01",
+      "endDate": "2025-12-01 (Expected)",
+      "score": "3.97",
+      "courses": ["Independent Research", "Artificial Intelligence", "Computer Vision", "Natural Language Processing", "Machine Learning", "Robot Manipulation and Navigation",
+      "Statistics for Data Science"]
+    },
+    {
+      "institution": "Indian Institute of Technology Dharwad",
+      "location": "Dharwad, India",
+      "url": "https://www.iitdh.ac.in/",
+      "area": "Mechanical Engineering, Minor in Machine Learning",
+      "studyType": "Bachelor of Technology",
+      "startDate": "2017-07-01",
+      "endDate": "2021-05-01",
+      "score": "3.64",
+      "courses": ["Deep Learning", "Machine Learning", "Robotics"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Jonsson School Dean's Graduate Scholarship",
+      "date": "2023-05-01",
+      "awarder": "Erik Jonsson School of Engineering and Computer Science, UTD",
+      "url": "https://engineering.utdallas.edu/academics/graduate-education/graduate-funding-opportunities/",
+      "summary": "A merit-based scholarship with 50% tuition funding for Fall 2023 and Spring 2024 semesters."
+    }
+  ],
   "languages": [
     {
       "language": "English",
@@ -274,72 +340,6 @@
       "language": "Marathi",
       "fluency": "Native Speaker",
       "icon": ""
-    }
-  ],
-  "projects": [
-    {
-      "name": "DOG: Dynamic Object Grasping",
-      "summary": "Robotic grasping of object moving on 2D Deterministic Path with real-time Recursive Least Squares motion prediction.",
-      "highlights": [],
-      "startDate": "2024-09-01",
-      "endDate": "2024-12-15",
-      "url": "https://www.sauravdosi.com/projects/1_project/"
-    },
-    {
-      "name": "Intelligent Name Matching",
-      "summary": "A BiLSTM-Attention model trained to prioritize keywords based on their Semantic role in a given Organization name.",
-      "highlights": [],
-      "startDate": "2024-06-03",
-      "endDate": "2024-08-10",
-      "url": "https://www.sauravdosi.com/projects/11_project/"
-    },
-    {
-      "name": "GDBWat: Graph DB Watermarking",
-      "summary": "Implemented a secure and robust graph database watermarking method using pseudo-nodes to ensure data integrity and ownership verification.",
-      "highlights": [],
-      "startDate": "2024-09-01",
-      "endDate": "2024-12-15",
-      "url": "https://www.sauravdosi.com/projects/5_project/"
-    },
-    {
-      "name": "IRVL Talk: NoMaD",
-      "summary": "A study and presentation talk on NoMaD: Goal Masked Diffusion Policies for Navigation and Exploration.",
-      "highlights": [],
-      "startDate": "2024-02-01",
-      "endDate": "2024-03-01",
-      "url": "https://www.sauravdosi.com/projects/12_project/"
-    },
-    {
-      "name": "IRVL Talk: Real-world Mobile Manipulation with RL",
-      "summary": "A study and presentation talk on Continuously Improving Mobile Manipulation with Autonomous Real-World RL.",
-      "highlights": [],
-      "startDate": "2024-10-01",
-      "endDate": "2024-11-01",
-      "url": "https://www.sauravdosi.com/projects/13_project/"
-    },
-    {
-      "name": "FetchNavIsaac: Robot Navigation Toolkit",
-      "summary": "An NVIDIA Isaac Sim Navigation starter kit with Sensor Simulation and Vision models.",
-      "highlights": [],
-      "startDate": "2024-03-01",
-      "endDate": "2024-04-01",
-      "url": "https://www.sauravdosi.com/projects/4_project/"
-    },
-    {
-      "name": "InvestAID: AI powered Investment Dashboard",
-      "summary": "AI application that integrates ChatGPT 3.5, Google Stock Trends, and alternative data sources like news sentiments and social media trends, using advanced web scraping, sentiment analysis, topic classification, and few-shot meta-learning to predict Investible pointers.",
-      "highlights": [],
-      "startDate": "2023-11-24",
-      "endDate": "2023-11-25",
-      "url": "https://www.sauravdosi.com/projects/2_project/"
-    },
-    {
-      "name": "Stair KeyDet: Keypoint Detection",
-      "summary": "A keypoint and person detection system for real-time staircase violation alerts using edge AI and camera feeds.",
-      "highlights": [],
-      "startDate": "2021-04-24",
-      "endDate": "2021-05-10",
-      "url": "https://www.sauravdosi.com/projects/10_project/"
     }
   ]
 }
