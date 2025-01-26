@@ -83,7 +83,7 @@ The project unfolds across three phases:
 Dynamic object grasping has been an active area of research, with numerous approaches tackling different aspects of this challenge. Here's a look at some key contributions that inspired and guided our work:
 
 #### 3.1. Reachability-Aware Grasping
-Akinola, Xu, and colleagues presented a dynamic grasping framework designed to account for both reachability and motion~\cite{akinola2021dynamic}. They introduced:
+Akinola, Xu, and colleagues presented a [dynamic grasping framework](https://arxiv.org/abs/2103.10562) designed to account for both reachability and motion. They introduced:
 
 - **Signed Distance Fields**: Used to model the robot's reachability space, making it easier to eliminate unreachable grasps quickly.
 - **Neural Network Predictions**: A model predicts the quality of potential grasps based on the object's motion, enabling real-time filtering of grasp options.
@@ -92,7 +92,7 @@ Akinola, Xu, and colleagues presented a dynamic grasping framework designed to a
 The framework leverages a recurrent neural network (RNN) to model and predict object motion, creating a robust and adaptable grasping strategy.
 
 #### 3.2. Human-to-Robot Handovers
-Robotic systems often struggle with the diverse sizes, shapes, and deformability of objects during handovers. Yang et al.~\cite{yangreact2020} tackled this problem by developing a vision-based system for reactive handovers, focusing on:
+Robotic systems often struggle with the diverse sizes, shapes, and deformability of objects during handovers. [Yang et al](https://arxiv.org/abs/2011.08961). tackled this problem by developing a vision-based system for reactive handovers, focusing on:
 
 - **Closed-Loop Motion Planning**: Ensures smooth and reactive grasping, even when objects are positioned unpredictably.
 - **Real-Time Grasp Generation**: Adapts dynamically to rigid and non-rigid objects alike.
@@ -100,7 +100,7 @@ Robotic systems often struggle with the diverse sizes, shapes, and deformability
 Their approach demonstrated exceptional robustness, tested on 26 diverse household objects and further validated through user studies.
 
 #### 3.3. Learning to Grasp Dynamically
-Wu's work~\cite{wu2022grasparl} took a different angle by introducing an adversarial reinforcement learning framework called GraspARL. This method frames the dynamic grasping challenge as a "move-and-grasp" game, where:
+[Wu's work](https://arxiv.org/pdf/2203.02119) took a different angle by introducing an adversarial reinforcement learning framework called GraspARL. This method frames the dynamic grasping challenge as a "move-and-grasp" game, where:
 
 - The robot attempts to grasp the object.
 - An adversarial mover tries to escape, simulating complex, unpredictable trajectories.
