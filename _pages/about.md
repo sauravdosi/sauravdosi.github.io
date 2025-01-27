@@ -47,6 +47,9 @@ I earned my BTech in Mechanical Engineering with a Minor in Machine Learning fro
   transition: color 0.3s ease-in-out;
   white-space: nowrap; /* Prevent line breaks */
   overflow: hidden; /* Hides extra text during the animation */
+  visibility: visible !important; /* Ensure the text is always visible */
+  display: inline-block; /* Ensure it's displayed properly */
+  word-wrap: break-word; /* Allow breaking long words if needed */
     }
     
       #scrambledText:hover {
