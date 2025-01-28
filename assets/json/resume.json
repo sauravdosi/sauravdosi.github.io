@@ -313,7 +313,7 @@
       "startDate": "2017-07-01",
       "endDate": "2021-05-01",
       "score": "3.64",
-      "courses": ["Deep Learning", "Machine Learning", "Robotics"]
+      "courses": ["Thesis Defense", "Deep Learning", "Machine Learning", "Robotics"]
     }
   ],
   "awards": [
@@ -323,6 +323,13 @@
       "awarder": "Erik Jonsson School of Engineering and Computer Science, UTD",
       "url": "https://engineering.utdallas.edu/academics/graduate-education/graduate-funding-opportunities/",
       "summary": "A merit-based scholarship with 50% tuition funding for Fall 2023 and Spring 2024 semesters."
+    },
+    {
+      "title": "Department Rank 2",
+      "date": "2023-05-01",
+      "awarder": "Department of Mechanical Engineering, IITDh",
+      "url": "https://www.iitdh.ac.in/",
+      "summary": "Secured the rank among 36 students."
     }
   ],
   "languages": [
