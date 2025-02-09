@@ -35,7 +35,7 @@ In addition, I am currently a Teaching Assistant for CS3345 - Data Structures an
 
 I earned my BTech in Mechanical Engineering with a Minor in Machine Learning from [Indian Institute of Technology Dharwad](https://www.iitdh.ac.in/). My [undergraduate thesis](https://link.springer.com/chapter/10.1007/978-3-031-05767-0_2) on a vision-based fruit assortment machine with optimal computation was published in Springer 2022.
 
-<div style="font-size: 1em; font-weight: bold; text-align: center; margin-bottom: 20px;">
+<div style="font-size: 1em; font-weight: bold; text-align: center; margin-bottom: 30px;">
 "Humanity is just a passing phase in the evolution of intelligence." — Geoffrey Hinton
 </div>
 
