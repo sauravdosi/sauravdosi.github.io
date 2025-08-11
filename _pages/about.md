@@ -20,9 +20,15 @@ social: true # includes social icons at the bottom of the page
   <p id="scrambledText">mH, lleocme waun fleloh!</p>
 </div>
 
-I am an AI Researcher and Industry Professional with over 2 years of academic research and over 3 years of industry experience. I am currently pursuing my Master's in Computer Science at [the University of Texas at Dallas](https://engineering.utdallas.edu/), with an expected graduation in December 2025.
+I am an AI Researcher and Industry Professional with over 2 years of academic research and over 3 years of industry experience. I am currently pursuing my Master's in Computer Science at [the University of Texas at Dallas](https://engineering.utdallas.edu/), 
+with an expected graduation in May 2026.
 
-At UTD, I work as an AI Researcher at the [Intelligent Robotics and Vision Lab](https://labs.utdallas.edu/irvl/), advised by [Dr. Yu Xiang](https://yuxng.github.io/), focusing on efficient long-horizon Robot Exploration. My broader research interests lie in **Multimodal AI** and its intersection with **Robotics**.
+I am a Graduate Research Assistant at [Weill Cornell Medicine](https://weill.cornell.edu/), Cornell University, advised by [Dr. Amir H. Goldan](https://you.stonybrook.edu/goldan/), where I am researching Multimodal (Image and Time-series) Diffusion Models for Brain Activity and Medical Imaging.
+At UTD, I work as a Graduate Research Assistant at the [Intelligent Robotics and Vision Lab](https://labs.utdallas.edu/irvl/), advised by [Dr. Yu Xiang](https://yuxng.github.io/), focusing on intelligent long-horizon Robot Exploration. 
+In addition, I was employed as a Teaching Assistant for CS3345 - Data Structures and Algorithms, under [Dr. Sridhar Alagar](https://profiles.utdallas.edu/sridhar) during Fall 2024 and Spring 2025 semesters.
+My broader research interests lie in **Multimodal AI** and its intersection with **Robotics** and **Healthcare**.
+
+This fall, I will be joining [Boehringer Ingelheim](https://www.boehringer-ingelheim.com/) as a Data Science (LLMs) Co-op.
 
 Previously, I gained extensive industry experience at organizations like:
 
@@ -31,9 +37,8 @@ Previously, I gained extensive industry experience at organizations like:
 - [Mirrag AI](https://mirrag.in/) (Startup): AI Engineer
 - [Express Analytics](https://www.expressanalytics.com/): Data Science Internship
 
-In addition, I am currently a Teaching Assistant for CS3345 - Data Structures and Algorithms, under [Dr. Sridhar Alagar](https://profiles.utdallas.edu/sridhar).
-
-I earned my BTech in Mechanical Engineering with a Minor in Machine Learning from [Indian Institute of Technology Dharwad](https://www.iitdh.ac.in/). My [undergraduate thesis](https://link.springer.com/chapter/10.1007/978-3-031-05767-0_2) on a vision-based fruit assortment machine with optimal computation was published in Springer 2022.
+I earned my BTech in Mechanical Engineering with a Minor in Machine Learning from [Indian Institute of Technology Dharwad](https://www.iitdh.ac.in/). 
+My [undergraduate thesis](https://link.springer.com/chapter/10.1007/978-3-031-05767-0_2) on a vision-based fruit assortment machine with optimal computation was published in Springer 2022.
 
 <div style="font-size: 1em; font-weight: bold; text-align: center; margin-bottom: 60px;">
 "Humanity is just a passing phase in the evolution of intelligence." — Geoffrey Hinton
