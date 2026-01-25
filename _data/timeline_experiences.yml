@@ -2,9 +2,9 @@
   company: <a href="https://radiology.weill.cornell.edu/research/x-ray-emission-imaging-laboratory-xeil">X-ray and Emission Imaging Lab, Cornell University</a>
   date: Jan 2026 - Present
   points:
-    - Efficient Long Horizon Robot Exploration.
-    - FetchNav starter kit in NVIDIA Isaac Sim.
-    - Talks on Diffusion and RL in Robotics.
+    - Proposed and submitted Low-dose and MRI-less TauPET Screening to SNMMI 2026.
+    - PETDiffuse - a 3D Diffusion model for PET Denoising.
+    - TauPETScreener - a weakly supervised 3D ViT framework with Slot Attention.
   tech_stack: [Diffusion Models, Computer Vision, Machine Learning, Medical Imaging, Time-Series Analysis, Neuroscience]
   icon: /assets/img/utd.png
 
@@ -12,9 +12,9 @@
   company: <a href="https://www.boehringer-ingelheim.com/us">Boehringer Ingelheim</a>
   date: Aug 2025 - Jan 2026
   points:
-    - Efficient Long Horizon Robot Exploration.
-    - FetchNav starter kit in NVIDIA Isaac Sim.
-    - Talks on Diffusion and RL in Robotics.
+    - Agentic AI Assistant for Sustainability Question Answering.
+    - Amendment Comparison Tool for Clinical Trials.
+    - Img2text models, CLIP and predictive modelling using LLMs.
   tech_stack: [Large Language Models, AI Agents, Retrieval Augmented Generation, Computer Vision]
   icon: /assets/img/utd.png
 
@@ -22,9 +22,9 @@
   company: <a href="https://radiology.weill.cornell.edu/research/x-ray-emission-imaging-laboratory-xeil">X-ray and Emission Imaging Lab, Cornell University</a>
   date: Jul 2025 - Jan 2026
   points:
-    - Efficient Long Horizon Robot Exploration.
-    - FetchNav starter kit in NVIDIA Isaac Sim.
-    - Talks on Diffusion and RL in Robotics.
+    - Proposed and submitted D3Recovery - a Diffusion-driven framework to SNMMI 2026.
+    - Proposed and submitted D3RecoveryMux - Multiplexed version to SNMMI 2026.
+    - Co-authored Inter Crystal Scatter Recovery paper and submitted to Medical Physics Journal 2026.
   tech_stack: [Diffusion Models, Computer Vision, Machine Learning, Medical Imaging]
   icon: /assets/img/utd.png
 
