@@ -1,16 +1,46 @@
-- title: AI Researcher
+- title: Research Assistant
+  company: <a href="https://radiology.weill.cornell.edu/research/x-ray-emission-imaging-laboratory-xeil">X-ray and Emission Imaging Lab, Cornell University</a>
+  date: Jan 2026 - Present
+  points:
+    - Efficient Long Horizon Robot Exploration.
+    - FetchNav starter kit in NVIDIA Isaac Sim.
+    - Talks on Diffusion and RL in Robotics.
+  tech_stack: [Diffusion Models, Computer Vision, Machine Learning, Medical Imaging, Time-Series Analysis, Neuroscience]
+  icon: /assets/img/utd.png
+
+- title: Data Scientist (LLMs) Co-Op
+  company: <a href="https://www.boehringer-ingelheim.com/us">Boehringer Ingelheim</a>
+  date: Aug 2025 - Jan 2026
+  points:
+    - Efficient Long Horizon Robot Exploration.
+    - FetchNav starter kit in NVIDIA Isaac Sim.
+    - Talks on Diffusion and RL in Robotics.
+  tech_stack: [Large Language Models, AI Agents, Retrieval Augmented Generation, Computer Vision]
+  icon: /assets/img/utd.png
+
+- title: Volunteer Research Assistant
+  company: <a href="https://radiology.weill.cornell.edu/research/x-ray-emission-imaging-laboratory-xeil">X-ray and Emission Imaging Lab, Cornell University</a>
+  date: Jul 2025 - Jan 2026
+  points:
+    - Efficient Long Horizon Robot Exploration.
+    - FetchNav starter kit in NVIDIA Isaac Sim.
+    - Talks on Diffusion and RL in Robotics.
+  tech_stack: [Diffusion Models, Computer Vision, Machine Learning, Medical Imaging]
+  icon: /assets/img/utd.png
+
+- title: Volunteer Research Assistant
   company: <a href="https://labs.utdallas.edu/irvl/">Intelligent Robotics and Vision Lab, UTD</a>
   date: Oct 2023 - Present
   points:
-    - Efficient Long Horizon Robot Exploration.
+    - Intelligent Long Horizon Robot Exploration.
     - FetchNav starter kit in NVIDIA Isaac Sim.
     - Talks on Diffusion and RL in Robotics.
   tech_stack: [Computer Vision, Robotics, Vision-Language Models, Reinforcement Learning, Diffusion]
   icon: /assets/img/utd.png
 
-- title: Grader/Teaching Assistant
+- title: Teaching Assistant
   company: <a href="https://www.utdallas.edu/">The University of Texas at Dallas</a>
-  date: September 2024 - Present
+  date: September 2024 - May 2025
   points:
     - Grade CS 3345 - Data Structures and Algorithms.
     - Automate grading process to save 50% time.

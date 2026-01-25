@@ -9,10 +9,6 @@ profile:
   image: home_profile.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-#    <p>saurav [dot] dosi [at]</p>
-#    <p>utdallas [dot] edu</p>
-#    <p>sdo4011 [at] med [dot]</p>
-#    <p>cornell [dot] edu</p>
     <p>Saurav.Dosi@utdallas.edu</p>
     <p>sdo4011@med.cornell.edu</p>
 
