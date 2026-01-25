@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Employed as a Graduate Research Assistant at WCM, Cornell University, NYC, NY! :microscope:
+Employed as a Volunteer Research Assistant at WCM, Cornell University, NYC, NY! :microscope:

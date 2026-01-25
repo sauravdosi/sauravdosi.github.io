@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Employed as a Data Science Co-Op (LLMs) at Boehringer Ingelheim! :sparkles:
+Employed as a Data Scientist (LLMs) Co-Op  at Boehringer Ingelheim! :sparkles:
