@@ -32,7 +32,7 @@
   "endDate": "Present",
   "summary": "Computer Vision, Diffusion Models, Multimodal Learning for Medical Imaging, Advised by Dr. Amir Goldan.",
   "highlights": ["Submitted to SNMMI 2026: Title - Low-dose and MRI-less TauPET Screening ; Contribution - Proposed PETDiffuse, a 3D Diffusion model, and TauPETScreener, a weakly supervised 3D ViT framework with a slot attention mechanism. ; Authors - Saurav Dosi, Wanbin Tan, Soroush Shabani Sichani, Xiuyuan Hugh Wang, Jinyi Qi, Gloria Chia-Yi Chiang, and Amir H. Goldan",
-  "In Preparation - Multimodal Diffusion Models for translating Brain Activity Time-series data to PET scans."
+  "In Preparation: Multimodal Diffusion Models for translating Brain Activity Time-series data to PET scans."
   ]
       },
     {
@@ -43,7 +43,7 @@
   "startDate": "2025-07-31",
   "endDate": "2026-01-23",
   "summary": "Computer Vision and Diffusion Models for Medical Imaging, Advised by Dr. Amir Goldan.",
-  "highlights": ["Submitted to SNMMI 2026: Title - D3RecoveryMux, Inter-crystal scatter recovery for TOF-DOI Prism-PET detectors with multiplexed readout using a diffusion model. ; Contribution - Proposed and developed D3RecoveryMux, Diffusion-driven tri-model framework for Inter-crystal Scatter Recovery on Interleaved Multiplexed SiPM patterns in PET. ; Authors - Saurav Dosi, Wanbin Tan, Soroush Shabani Sichani, Yixin Li, Zipai Wang, Eric Petersen, and Amir H. Goldan ; Title - D3Recovery, Inter-crystal scatter recovery for TOF-DOI Prism-PET scanner using a diffusion model. ; Contribution - Proposed and developed D3Recovery, Diffusion-driven tri-model framework, for Inter-crystal Scatter Recovery in PET. ; Authors - Wanbin Tan, Saurav Dosi, Soroush Shabani Sichani, Yixin Li, Zipai Wang, Eric Petersen, and Amir H. Goldan",
+  "highlights": ["Submitted to SNMMI 2026: Title - D3RecoveryMux, Inter-crystal scatter recovery for TOF-DOI Prism-PET detectors with multiplexed readout using a diffusion model. ; Contribution - Proposed and developed D3RecoveryMux, Diffusion-driven tri-model framework for Inter-crystal Scatter Recovery on Interleaved Multiplexed SiPM patterns in PET. ; Authors - Saurav Dosi, Wanbin Tan, Soroush Shabani Sichani, Yixin Li, Zipai Wang, Eric Petersen, and Amir H. Goldan \n\n ; Title - D3Recovery, Inter-crystal scatter recovery for TOF-DOI Prism-PET scanner using a diffusion model. ; Contribution - Proposed and developed D3Recovery, Diffusion-driven tri-model framework, for Inter-crystal Scatter Recovery in PET. ; Authors - Wanbin Tan, Saurav Dosi, Soroush Shabani Sichani, Yixin Li, Zipai Wang, Eric Petersen, and Amir H. Goldan",
   "Submitted to Journal of Medical Physics 2026:  Title - Inter-crystal scatter recovery of a light-sharing depth-encoding Prism-PET prototype scanner using a diffusion model. ;  Contribution - Proposed and developed D3Recovery, Diffusion-driven tri-model framework, for Inter-crystal Scatter Recovery in PET. ; Authors - Wanbin Tan, Saurav Dosi, Soroush Shabani Sichani, Yixin Li, Zipai Wang, Eric Petersen, Xinjie Zeng, Jinyi Qi, and Amir H. Goldan"]
       },
     {
