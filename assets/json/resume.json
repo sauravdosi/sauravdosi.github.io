@@ -24,6 +24,17 @@
   },
   "experience": [
     {
+  "name": "X-Ray and Emission Imaging Lab, Weill Cornell Medicine, Cornell University",
+      "location": "New York, New York",
+  "position": "Volunteer Research Assistant",
+  "url": "https://radiology.weill.cornell.edu/research/x-ray-emission-imaging-laboratory-xeil",
+  "startDate": "2025-07-31",
+  "endDate": "2026-01-23",
+  "summary": "Computer Vision and Diffusion Models for Medical Imaging, Advised by Dr. Amir Goldan.",
+  "highlights": ["Submitted to SNMMI 2026: Title: D3RecoveryMux: Inter-crystal scatter recovery for TOF-DOI Prism-PET detectors with multiplexed readout using a diffusion model. ; Contribution: Proposed and developed D3RecoveryMux: Diffusion-driven tri-model framework for Inter-crystal Scatter Recovery on Interleaved Multiplexed SiPM patterns in PET. ; Authors: Saurav Dosi, Wanbin Tan, Soroush Shabani Sichani, Yixin Li, Zipai Wang, Eric Petersen, and Amir H. Goldan \n\n ; Title: D3Recovery: Inter-crystal scatter recovery for TOF-DOI Prism-PET scanner using a diffusion model. ; Contribution: Proposed and developed D3Recovery: Diffusion-driven tri-model framework for Inter-crystal Scatter Recovery in PET. ; Authors: Wanbin Tan, Saurav Dosi, Soroush Shabani Sichani, Yixin Li, Zipai Wang, Eric Petersen, and Amir H. Goldan",
+  "Submitted to Journal of Medical Physics 2026:  Title: Inter-crystal scatter recovery of a light-sharing depth-encoding Prism-PET prototype scanner using a diffusion model.;  Contribution: Proposed and developed D3Recovery: Diffusion-driven tri-model framework for Inter-crystal Scatter Recovery in PET. ; Authors: Wanbin Tan, Saurav Dosi, Soroush Shabani Sichani, Yixin Li, Zipai Wang, Eric Petersen, Xinjie Zeng, Jinyi Qi, and Amir H. Goldan"]
+      },
+    {
   "name": "Boehringer Ingelheim",
       "location": "Ridgefield, Connecticut",
   "position": "Data Scientist Co-Op",
@@ -97,9 +108,9 @@
       "location": "Dallas, Texas",
   "url": "https://www.utdallas.edu/",
   "startDate": "2024-09-04",
-  "endDate": "Present",
+  "endDate": "2025-05-18",
   "summary": "Teaching Assistant for CS3345, advised by Dr. Sridhar Alagar.",
-  "highlights": ["Data Structures and Algorithms: Automate code grading to save 50% time, along with grading assignments, and exams for CS3345 - Data Structures and Algorithms, a class of 140 students.; Mentor students for improved understanding during office hours."]
+  "highlights": ["Data Structures and Algorithms: Delivered a focused lecture on competitive challenges on linked lists to reinforce algorithmic problem-solving and deepen conceptual understanding. ; Integrated advanced language models with automated code grading, resulting in a 50% time savings on evaluating assignments and exams for CS3345: Data Structures and Algorithms, a class of 140 students under Prof. Sridhar Alagar’s guidance. ; Conducted targeted mentoring during office hours to significantly enhance students' understanding of the course material."]
       }
   ],
   "publications": [
