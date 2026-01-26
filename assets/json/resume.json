@@ -24,6 +24,17 @@
   },
   "experience": [
     {
+  "name": "Boehringer Ingelheim",
+      "location": "Ridgefield, Connecticut",
+  "position": "Data Scientist Co-Op",
+  "url": "https://www.boehringer-ingelheim.com/us",
+  "startDate": "2025-08-18",
+  "endDate": "2026-01-16",
+  "summary": "AI Workflows using LLMs, Agents, RAG for Question Answering, Predictive Modeling and Multimodal RAG.",
+  "highlights": ["LLM and Agents: Built an AI Assistant Workflow to process text and Excel questionnaires for Sustainability Policy related Question Answering using GPT-4o, OpenAI Text Large Embeddings, Cohere RAG Reranker, and a Qdrant Knowledge Base indexed on semantically chunked data. ; Explored Agent driven web search implementation to additionally validate answers. ; Developed a Clinical Trial Protocol amendment comparison tool for eligibility criteria comparison using LLM semantic matching.",
+    "Computer Vision and Predictive Modelling: Researched img2text models and embeddings such as CLIP to index multistructured image data such as figures, charts and slides. ; Explored predictive modelling and analytics using LLMs to predict corrections in eligibility criteria for Clinical Trial Protocol documents."]
+      },
+    {
   "name": "Intelligent Robotics and Vision Lab, UTD",
       "location": "Dallas, Texas",
   "position": "AI Researcher",
