@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-D3Recovery: Diffusion-driven tri-model framework for PET resolution improvement is accepted for **Oral Presentation** at SNMMI 2026 (Top 15%)! :medal_sports: 
+D3Recovery: Diffusion-driven tri-model framework for PET resolution improvement is accepted for <span style="color: #e74c3c; font-weight: bold;">Oral Presentation</span> at SNMMI 2026 (Top 15%)! :medal_sports:
