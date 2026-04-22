@@ -41,9 +41,11 @@ I earned my Bachelor of Technology degree in Mechanical Engineering with a minor
 My [undergraduate thesis work](https://link.springer.com/chapter/10.1007/978-3-031-05767-0_2), advised by [Dr. Samarth Raut](https://iitdh.ac.in/sraut/), on a vision-based fruit assortment machine with optimal computation was presented in 
 Conference on Soft Computing and its Engineering Applications, and was published in Springer 2022.
 
-<div style="font-size: 1em; font-weight: bold; text-align: center; margin-bottom: 60px;">
-"Humanity is just a passing phase in the evolution of intelligence." — Geoffrey Hinton
-</div>
+[//]: # (<div style="font-size: 1em; font-weight: bold; text-align: center; margin-bottom: 60px;">)
+
+[//]: # ("Humanity is just a passing phase in the evolution of intelligence." — Geoffrey Hinton)
+
+[//]: # (</div>)
 
 <style>
     #scrambledText {
