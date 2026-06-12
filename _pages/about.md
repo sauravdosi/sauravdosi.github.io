@@ -20,11 +20,10 @@ social: true # includes social icons at the bottom of the page
   <p id="scrambledText">mH, lleocme waun fleloh!</p>
 </div>
 
-I am an AI Researcher and Industry Professional with over 3 years of academic research and over 3 years of industry experience. I am currently pursuing my Master's in Computer Science at [the University of Texas at Dallas](https://engineering.utdallas.edu/), 
-with an expected graduation in May 2026.
+I am an AI Researcher and Industry Professional with over 3 years of academic research and over 3 years of industry experience. I completed my Master's in Computer Science at [the University of Texas at Dallas](https://engineering.utdallas.edu/) in May 2026.
 
-I am a Research Assistant at [Weill Cornell Medicine](https://weill.cornell.edu/), Cornell University, advised by [Dr. Amir H. Goldan](https://you.stonybrook.edu/goldan/), where I am researching Multimodal (2D, 3D Spatial and Time-series) Diffusion Models for Medical Imaging and Neuroscience.
-At UTD, I work as a Volunteer Research Assistant at the [Intelligent Robotics and Vision Lab](https://labs.utdallas.edu/irvl/), advised by [Dr. Yu Xiang](https://yuxng.github.io/), focusing on intelligent long-horizon Robot Exploration. 
+I am currently a Research Assistant at [Weill Cornell Medicine](https://weill.cornell.edu/), Cornell University, advised by [Dr. Amir H. Goldan](https://you.stonybrook.edu/goldan/), where I am researching Multimodal (2D, 3D Spatial and Time-series) Diffusion Models for Medical Imaging and Neuroscience.
+At UTD, I worked as a Volunteer Research Assistant at the [Intelligent Robotics and Vision Lab](https://labs.utdallas.edu/irvl/), advised by [Dr. Yu Xiang](https://yuxng.github.io/), focusing on intelligent long-horizon Robot Exploration. 
 In addition, I was employed as a Teaching Assistant for CS3345 - Data Structures and Algorithms, under [Dr. Sridhar Alagar](https://profiles.utdallas.edu/sridhar) during Fall 2024 and Spring 2025 semesters at UTD.
 My broader research interests lie in **Multimodal AI** and its intersection with **Robotics** and **Healthcare**.
 
