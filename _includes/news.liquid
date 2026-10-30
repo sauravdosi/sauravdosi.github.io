@@ -4,7 +4,7 @@
       background-color: var(--global-theme-color);
     }
     .news-scroll {
-      max-height: 12rem; /* fallback until the script measures the first 3 rows */
+      max-height: 20rem; /* fallback until the script measures the first 5 rows */
       overflow-y: auto;
       scrollbar-width: thin;
       scrollbar-color: var(--global-theme-color) transparent;
@@ -19,7 +19,7 @@
   </style>
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
-    {% if include.limit and site.announcements.scrollable and news_size > 3 %}
+    {% if include.limit and site.announcements.scrollable and news_size > 5 %}
       {% assign news_scroll = true %}
     {% endif %}
     <div class="table-responsive{% if news_scroll %} news-scroll{% endif %}">
@@ -49,13 +49,13 @@
     </div>
     {% if news_scroll %}
       <script>
-        // Size the scroll box so exactly the latest 3 news items are visible
+        // Size the scroll box so exactly the latest 5 news items are visible
         (function () {
           const box = document.currentScript.previousElementSibling;
           const fit = () => {
             const rows = box.querySelectorAll("tr");
             let height = 0;
-            for (let i = 0; i < Math.min(3, rows.length); i++) height += rows[i].offsetHeight;
+            for (let i = 0; i < Math.min(5, rows.length); i++) height += rows[i].offsetHeight;
             if (height > 0) box.style.maxHeight = height + 1 + "px";
           };
           fit();
