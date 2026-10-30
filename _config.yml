@@ -9,14 +9,14 @@ last_name: Dosi
 contact_note: >
   Best time to reach out to me is now. Let's talk innovation!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Hi, I’m Saurav—a curious AI researcher, robotics enthusiast, and occasional code wrangler, on a mission to teach machines what humans already know (most of the time)! - ChatGPT 4.0
+  Saurav Dosi is an AI researcher at Weill Cornell Medicine working on multimodal diffusion models for medical imaging, with broader interests in robotics and healthcare AI.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Saurav Dosi, AI researcher, multimodal AI, diffusion models, medical imaging, PET, computer vision, robotics, machine learning # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.ico  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://sauravdosi.github.io # the base hostname & protocol for your site
+url: https://www.sauravdosi.com # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR

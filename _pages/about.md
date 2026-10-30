@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="#">AI and Robotics Researcher. ML Engineer. Multimodal AI.</a>
+subtitle: AI and Robotics Researcher. ML Engineer. Multimodal AI.
 
 profile:
   align: right
@@ -49,7 +49,6 @@ Conference on Soft Computing and its Engineering Applications, and was published
 <style>
     #scrambledText {
   font-size: 1.0rem; /* Normal text size */
-  cursor: pointer;
   color: var(--global-text-color); /* Default text color */
   transition: color 0.3s ease-in-out;
   white-space: nowrap; /* Prevent line breaks */
@@ -72,10 +71,11 @@ Conference on Soft Computing and its Engineering Applications, and was published
 
     let isUnscrambled = false;
 
-    scrambledTextElement.addEventListener("click", () => {
-      if (isUnscrambled) return; 
+    // Unscramble automatically shortly after the page loads
+    setTimeout(() => {
+      if (isUnscrambled) return;
 
-      isUnscrambled = true; 
+      isUnscrambled = true;
       const duration = 2000; 
       const interval = 50; 
       let progress = 0;
@@ -93,9 +93,8 @@ Conference on Soft Computing and its Engineering Applications, and was published
         if (progress >= duration) {
           clearInterval(animateUnscramble); 
           scrambledTextElement.textContent = unscrambledText; 
-          scrambledTextElement.style.cursor = "default"; 
         }
       }, interval);
-    });
+    }, 600);
   });
 </script>
