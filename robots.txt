@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://sauravdosi.github.io/sitemap.xml
+Sitemap: https://www.sauravdosi.com/sitemap.xml
