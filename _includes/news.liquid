@@ -3,15 +3,26 @@
     .news-badge {
       background-color: var(--global-theme-color);
     }
+    .news-scroll {
+      max-height: 12rem; /* fallback until the script measures the first 3 rows */
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: var(--global-theme-color) transparent;
+    }
+    .news-scroll::-webkit-scrollbar {
+      width: 6px;
+    }
+    .news-scroll::-webkit-scrollbar-thumb {
+      background-color: var(--global-theme-color);
+      border-radius: 3px;
+    }
   </style>
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
-    <div
-      class="table-responsive"
-      {% if include.limit and site.announcements.scrollable and news_size > 3 %}
-        style="max-height: 60vw"
-      {% endif %}
-    >
+    {% if include.limit and site.announcements.scrollable and news_size > 3 %}
+      {% assign news_scroll = true %}
+    {% endif %}
+    <div class="table-responsive{% if news_scroll %} news-scroll{% endif %}">
       <table class="table table-sm table-borderless">
         {% assign news = site.news | reverse %}
         {% if include.limit and site.announcements.limit %}
@@ -36,6 +47,23 @@
         {% endfor %}
       </table>
     </div>
+    {% if news_scroll %}
+      <script>
+        // Size the scroll box so exactly the latest 3 news items are visible
+        (function () {
+          const box = document.currentScript.previousElementSibling;
+          const fit = () => {
+            const rows = box.querySelectorAll("tr");
+            let height = 0;
+            for (let i = 0; i < Math.min(3, rows.length); i++) height += rows[i].offsetHeight;
+            if (height > 0) box.style.maxHeight = height + 1 + "px";
+          };
+          fit();
+          window.addEventListener("load", fit);
+          window.addEventListener("resize", fit);
+        })();
+      </script>
+    {% endif %}
   {% else %}
     <p>No news so far...</p>
   {% endif %}
