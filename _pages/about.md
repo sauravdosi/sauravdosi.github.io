@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: AI and Robotics Researcher. ML Engineer. Multimodal AI.
 

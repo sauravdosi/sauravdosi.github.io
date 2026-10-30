@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: "Dive into the stories behind my research—papers that push boundaries and ideas that spark conversations. 📚✨ (* stands for equal contribution from the authors.)"
 nav: true
 nav_order: 2

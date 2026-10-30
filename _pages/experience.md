@@ -1,14 +1,14 @@
 ---
 layout: page
 permalink: /experience/
-title: experience
+title: Experience
 description: Walk through my career journey, from solving real-world puzzles to crafting innovative solutions that matter. 💼🚀
 nav: true
 nav_order: 3
 ---
 
 <div class="container mt-5">
-  <h1 class="text-center mb-4">career timeline</h1>
+  <h1 class="text-center mb-4">Career Timeline</h1>
   <div class="timeline position-relative">
 
     <!-- Example Timeline Item (Reusable Structure) -->
