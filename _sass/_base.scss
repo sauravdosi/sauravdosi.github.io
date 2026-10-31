@@ -838,17 +838,21 @@ footer.sticky-bottom {
       }
 
       .author {
+        // co-author links stay in the text colour; only my own name is purple
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          color: var(--global-text-color);
+          border-bottom: 1px dashed var(--global-text-color-light);
 
           &:hover {
+            color: var(--global-text-color);
             border-bottom-style: solid;
             text-decoration: none;
           }
         }
 
         > em {
-          border-bottom: 1px solid;
+          color: var(--global-theme-color);
+          font-weight: bold;
           font-style: normal;
         }
 

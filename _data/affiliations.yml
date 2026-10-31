@@ -2,13 +2,14 @@
 # type: research (research and academia) or industry
 # logo: file in assets/img/affiliations/ (leave blank to show the initials)
 # short: optional label under the logo when the full name is too long for one line
+# role: two lines shown in the hover pill, as [first line, second line]
 - name: Weill Cornell Medicine
   short: Weill Cornell
   initials: WCM
   url: https://weill.cornell.edu/
   logo: wcm.png
   years: 2025 – Now
-  role: Research Assistant
+  role: [Research, Assistant]
   type: research
 
 - name: UT Dallas
@@ -16,7 +17,7 @@
   url: https://www.utdallas.edu/
   logo: utd.png
   years: 2023 – 2026
-  role: MS CS · IRVL · TA
+  role: [MS Computer Science, "Research, TA"]
   type: research
 
 - name: Boehringer Ingelheim
@@ -25,7 +26,7 @@
   url: https://www.boehringer-ingelheim.com/us
   logo: boehringer.png
   years: 2025 – 2026
-  role: Data Scientist (LLMs) Co-Op
+  role: [Data Scientist (LLMs), Co-Op]
   type: industry
 
 - name: ISN
@@ -33,7 +34,7 @@
   url: https://www.isnetworld.com/en/
   logo: isn.png
   years: "2024"
-  role: Data Science (NLP) Intern
+  role: [Data Science (NLP), Intern]
   type: industry
 
 - name: Quantrium AI
@@ -41,7 +42,7 @@
   url: https://www.quantrium.ai/
   logo: quantrium.png
   years: 2021 – 2023
-  role: Machine Learning Engineer
+  role: [Machine Learning, Engineer]
   type: industry
 
 - name: IIT Dharwad
@@ -49,7 +50,7 @@
   url: https://www.iitdh.ac.in/
   logo: iitdh.png
   years: 2017 – 2021
-  role: B.Tech, Mechanical + ML minor
+  role: [BTech, Mechanical + ML]
   type: research
 
 - name: Mirrag AI
@@ -57,7 +58,7 @@
   url: https://mirrag.in/
   logo:
   years: "2021"
-  role: AI Engineer
+  role: [AI, Engineer]
   type: industry
 
 - name: Express Analytics
@@ -65,5 +66,5 @@
   url: https://www.expressanalytics.com/
   logo: express-analytics.png
   years: 2020 – 2021
-  role: Data Science Intern
+  role: [Data Science, Intern]
   type: industry

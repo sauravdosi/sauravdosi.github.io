@@ -6,6 +6,8 @@
     .affiliations-track {
       display: grid;
       grid-template-columns: repeat({{ site.data.affiliations | size }}, minmax(0, 1fr));
+      /* room for the two-line role pill that appears on hover */
+      padding-bottom: 2.75rem;
     }
     .affiliation {
       position: relative;
@@ -90,19 +92,30 @@
       white-space: nowrap;
       color: var(--global-text-color-light);
     }
+    /* the role floats below the item as exactly two unwrapped lines */
     .affiliation-role {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      z-index: 1;
       font-size: 0.68rem;
       line-height: 1.25;
+      white-space: nowrap;
       margin-top: 0.3rem;
-      padding: 0.15rem 0.4rem;
+      padding: 0.15rem 0.5rem;
       border-radius: 4px;
       color: var(--global-theme-color);
       border: 1px solid var(--global-theme-color);
+      background: var(--global-bg-color);
       opacity: 0;
-      transform: translateY(-4px);
+      pointer-events: none;
+      transform: translate(-50%, -4px);
       transition:
         opacity 0.2s ease-in-out,
         transform 0.2s ease-in-out;
+    }
+    .affiliation-role span {
+      display: block;
     }
     .affiliation:hover .affiliation-logo,
     .affiliation:focus-visible .affiliation-logo {
@@ -111,7 +124,7 @@
     .affiliation:hover .affiliation-role,
     .affiliation:focus-visible .affiliation-role {
       opacity: 1;
-      transform: none;
+      transform: translate(-50%, 0);
     }
     .affiliations-legend {
       display: flex;
@@ -128,12 +141,6 @@
       border-radius: 50%;
       margin-right: 0.3rem;
     }
-    /* touch screens have no hover, so skip the role */
-    @media (hover: none) {
-      .affiliation-role {
-        display: none;
-      }
-    }
     /* below laptop width the columns get too narrow for one-line names,
        so the row becomes a strip you can swipe sideways */
     @media (max-width: 991px) {
@@ -141,13 +148,21 @@
         display: flex;
         overflow-x: auto;
         scroll-snap-type: x mandatory;
-        padding-bottom: 0.5rem;
       }
       .affiliation {
         flex: 0 0 auto;
         min-width: 96px;
         padding: 0 0.6rem;
         scroll-snap-align: start;
+      }
+    }
+    /* touch screens have no hover, so skip the role and its space */
+    @media (hover: none) {
+      .affiliations-track {
+        padding-bottom: 0.5rem;
+      }
+      .affiliation-role {
+        display: none;
       }
     }
   </style>
@@ -164,7 +179,9 @@
         </div>
         <div class="affiliation-name">{{ org.short | default: org.name }}</div>
         <div class="affiliation-years">{{ org.years }}</div>
-        <div class="affiliation-role">{{ org.role }}</div>
+        <div class="affiliation-role">
+          {%- for line in org.role -%}<span>{{ line }}</span>{%- endfor -%}
+        </div>
       </a>
     {% endfor %}
   </div>
