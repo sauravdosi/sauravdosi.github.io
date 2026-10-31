@@ -1,34 +1,41 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+# Co-author links on the publications page.
+# Keyed by lowercase last name; firstname lists every spelling used in papers.bib.
+"tan":
+  - firstname: ["Wanbin"]
+    url: https://orcid.org/0000-0001-9198-5535
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"shabani sichani":
+  - firstname: ["Soroush"]
+    url: https://www.lassp.cornell.edu/people/soroush-shabani-sichani
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"li":
+  - firstname: ["Yixin"]
+    url: https://orcid.org/0000-0002-8162-6026
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"wang":
+  - firstname: ["Zipai"]
+    url: https://orcid.org/0000-0003-2863-4243
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"petersen":
+  - firstname: ["Eric"]
+    url: https://orcid.org/0000-0002-6945-0881
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"zeng":
+  - firstname: ["Xinjie"]
+    url: https://orcid.org/0000-0002-8987-3726
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"qi":
+  - firstname: ["Jinyi"]
+    url: https://bme.ucdavis.edu/people/jinyi-qi
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"goldan":
+  - firstname: ["Amir H.", "Amirhossein"]
+    url: https://radiology.weill.cornell.edu/research/x-ray-emission-imaging-laboratory-xeil
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"kadosh":
+  - firstname: ["Itay"]
+    url: https://www.linkedin.com/in/itay-kadosh/
+
+"xiang":
+  - firstname: ["Yu"]
+    url: https://yuxng.github.io/
