@@ -780,11 +780,15 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
-    padding-top: 1rem;
+    color: var(--global-text-color-light);
+    font-size: 0.85rem;
+    font-weight: bold;
+    letter-spacing: 0.16em;
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-bottom: 0.5rem;
     margin-top: 2rem;
-    text-align: right;
+    margin-bottom: 1.5rem;
+    text-align: left;
   }
 
   ol.bibliography {
@@ -823,6 +827,11 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+      }
+
+      .award-name {
+        color: var(--global-theme-color);
+        font-weight: bold;
       }
 
       .author {
