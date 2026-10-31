@@ -1,0 +1,188 @@
+<div class="affiliations">
+  <style>
+    .affiliations {
+      margin: 2rem 0 2.5rem;
+    }
+    .affiliations-track {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat({{ site.data.affiliations | size }}, minmax(0, 1fr));
+      gap: 0.5rem;
+    }
+    /* the journey line runs through the centre of the logos */
+    .affiliations-track::before {
+      content: "";
+      position: absolute;
+      left: 6%;
+      right: 6%;
+      top: 26px;
+      border-top: 1px solid var(--global-divider-color);
+    }
+    .affiliation {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      color: var(--global-text-color);
+    }
+    .affiliation:hover {
+      text-decoration: none;
+      color: var(--global-text-color);
+    }
+    .affiliation-logo {
+      position: relative;
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      background: var(--global-bg-color);
+      border: 1px solid var(--global-divider-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: border-color 0.2s ease-in-out;
+    }
+    .affiliation-logo img,
+    .affiliation-logo .initials {
+      filter: grayscale(1);
+      opacity: 0.55;
+      transition:
+        filter 0.2s ease-in-out,
+        opacity 0.2s ease-in-out;
+    }
+    /* white disc keeps dark logos readable in dark mode */
+    .affiliation-logo img {
+      width: 42px;
+      height: 42px;
+      padding: 3px;
+      object-fit: contain;
+      border-radius: 50%;
+      background: #fff;
+    }
+    .affiliation-logo .initials {
+      font-size: 0.8rem;
+      font-weight: bold;
+    }
+    .affiliation-dot {
+      position: absolute;
+      right: -1px;
+      bottom: -1px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: 2px solid var(--global-bg-color);
+    }
+    .affiliation-dot.research,
+    .affiliations-legend .research {
+      background: var(--global-theme-color);
+    }
+    .affiliation-dot.industry,
+    .affiliations-legend .industry {
+      background: #1d9e75;
+    }
+    .affiliation-name {
+      font-size: 0.75rem;
+      font-weight: bold;
+      line-height: 1.25;
+      margin-top: 0.4rem;
+    }
+    .affiliation-years {
+      font-size: 0.7rem;
+      color: var(--global-text-color-light);
+    }
+    .affiliation-role {
+      font-size: 0.68rem;
+      line-height: 1.25;
+      margin-top: 0.3rem;
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      color: var(--global-theme-color);
+      border: 1px solid var(--global-theme-color);
+      opacity: 0;
+      transform: translateY(-4px);
+      transition:
+        opacity 0.2s ease-in-out,
+        transform 0.2s ease-in-out;
+    }
+    .affiliation:hover .affiliation-logo,
+    .affiliation:focus-visible .affiliation-logo {
+      border-color: var(--global-theme-color);
+    }
+    .affiliation:hover .affiliation-logo img,
+    .affiliation:hover .affiliation-logo .initials,
+    .affiliation:focus-visible .affiliation-logo img,
+    .affiliation:focus-visible .affiliation-logo .initials {
+      filter: none;
+      opacity: 1;
+    }
+    .affiliation:hover .affiliation-role,
+    .affiliation:focus-visible .affiliation-role {
+      opacity: 1;
+      transform: none;
+    }
+    .affiliations-legend {
+      display: flex;
+      justify-content: center;
+      gap: 1.25rem;
+      font-size: 0.7rem;
+      color: var(--global-text-color-light);
+      margin-top: 0.25rem;
+    }
+    .affiliations-legend span span {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-right: 0.3rem;
+    }
+    /* touch screens have no hover: show logos in colour and skip the role */
+    @media (hover: none) {
+      .affiliation-logo img,
+      .affiliation-logo .initials {
+        filter: none;
+        opacity: 1;
+      }
+      .affiliation-role {
+        display: none;
+      }
+    }
+    /* phones: swipeable row instead of squeezing 8 columns */
+    @media (max-width: 576px) {
+      .affiliations-track {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        padding-bottom: 0.5rem;
+      }
+      .affiliations-track::before {
+        left: 0;
+        right: 0;
+      }
+      .affiliation {
+        flex: 0 0 88px;
+        scroll-snap-align: start;
+      }
+    }
+  </style>
+  <div class="affiliations-track">
+    {% for org in site.data.affiliations %}
+      <a class="affiliation" href="{{ org.url }}" target="_blank" rel="noopener">
+        <div class="affiliation-logo">
+          {% if org.logo %}
+            <img src="{{ org.logo | prepend: '/assets/img/affiliations/' | relative_url }}" alt="{{ org.name }} logo" loading="lazy">
+          {% else %}
+            <span class="initials">{{ org.initials }}</span>
+          {% endif %}
+          <span class="affiliation-dot {{ org.type }}"></span>
+        </div>
+        <div class="affiliation-name">{{ org.name }}</div>
+        <div class="affiliation-years">{{ org.years }}</div>
+        <div class="affiliation-role">{{ org.role }}</div>
+      </a>
+    {% endfor %}
+  </div>
+  <div class="affiliations-legend">
+    <span><span class="research"></span>Research and education</span>
+    <span><span class="industry"></span>Industry</span>
+  </div>
+</div>

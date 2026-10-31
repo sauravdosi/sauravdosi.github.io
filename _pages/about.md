@@ -12,6 +12,7 @@ profile:
     <p>Saurav.Dosi@utdallas.edu</p>
     <p>sdo4011@med.cornell.edu</p>
 
+affiliations: true # shows the institution logo timeline from _data/affiliations.yml
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
