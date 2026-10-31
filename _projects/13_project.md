@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "IRVL Talk: Real-world Mobile Manipulation with RL"
+title: "IRVL Talk: Real-World Mobile Manipulation with RL"
 description: "A study and presentation talk on Continuously Improving Mobile Manipulation with Autonomous Real-World RL."
 img: assets/img/mobmanip.png
 importance: 5

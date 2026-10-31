@@ -4,19 +4,8 @@
       margin: 2rem 0 2.5rem;
     }
     .affiliations-track {
-      position: relative;
       display: grid;
       grid-template-columns: repeat({{ site.data.affiliations | size }}, minmax(0, 1fr));
-      gap: 0.5rem;
-    }
-    /* the journey line runs through the centre of the logos */
-    .affiliations-track::before {
-      content: "";
-      position: absolute;
-      left: 6%;
-      right: 6%;
-      top: 26px;
-      border-top: 1px solid var(--global-divider-color);
     }
     .affiliation {
       position: relative;
@@ -24,11 +13,28 @@
       flex-direction: column;
       align-items: center;
       text-align: center;
+      padding: 0 0.25rem;
       color: var(--global-text-color);
     }
     .affiliation:hover {
       text-decoration: none;
       color: var(--global-text-color);
+    }
+    /* each item draws its own piece of the journey line, so the line also
+       spans the whole row when it scrolls sideways on smaller screens */
+    .affiliation::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 26px;
+      border-top: 1px solid var(--global-divider-color);
+    }
+    .affiliation:first-child::before {
+      left: 50%;
+    }
+    .affiliation:last-child::before {
+      right: 50%;
     }
     .affiliation-logo {
       position: relative;
@@ -41,14 +47,6 @@
       align-items: center;
       justify-content: center;
       transition: border-color 0.2s ease-in-out;
-    }
-    .affiliation-logo img,
-    .affiliation-logo .initials {
-      filter: grayscale(1);
-      opacity: 0.55;
-      transition:
-        filter 0.2s ease-in-out,
-        opacity 0.2s ease-in-out;
     }
     /* white disc keeps dark logos readable in dark mode */
     .affiliation-logo img {
@@ -84,10 +82,12 @@
       font-size: 0.75rem;
       font-weight: bold;
       line-height: 1.25;
+      white-space: nowrap;
       margin-top: 0.4rem;
     }
     .affiliation-years {
       font-size: 0.7rem;
+      white-space: nowrap;
       color: var(--global-text-color-light);
     }
     .affiliation-role {
@@ -107,13 +107,6 @@
     .affiliation:hover .affiliation-logo,
     .affiliation:focus-visible .affiliation-logo {
       border-color: var(--global-theme-color);
-    }
-    .affiliation:hover .affiliation-logo img,
-    .affiliation:hover .affiliation-logo .initials,
-    .affiliation:focus-visible .affiliation-logo img,
-    .affiliation:focus-visible .affiliation-logo .initials {
-      filter: none;
-      opacity: 1;
     }
     .affiliation:hover .affiliation-role,
     .affiliation:focus-visible .affiliation-role {
@@ -135,31 +128,25 @@
       border-radius: 50%;
       margin-right: 0.3rem;
     }
-    /* touch screens have no hover: show logos in colour and skip the role */
+    /* touch screens have no hover, so skip the role */
     @media (hover: none) {
-      .affiliation-logo img,
-      .affiliation-logo .initials {
-        filter: none;
-        opacity: 1;
-      }
       .affiliation-role {
         display: none;
       }
     }
-    /* phones: swipeable row instead of squeezing 8 columns */
-    @media (max-width: 576px) {
+    /* below laptop width the columns get too narrow for one-line names,
+       so the row becomes a strip you can swipe sideways */
+    @media (max-width: 991px) {
       .affiliations-track {
         display: flex;
         overflow-x: auto;
         scroll-snap-type: x mandatory;
         padding-bottom: 0.5rem;
       }
-      .affiliations-track::before {
-        left: 0;
-        right: 0;
-      }
       .affiliation {
-        flex: 0 0 88px;
+        flex: 0 0 auto;
+        min-width: 96px;
+        padding: 0 0.6rem;
         scroll-snap-align: start;
       }
     }
@@ -175,14 +162,14 @@
           {% endif %}
           <span class="affiliation-dot {{ org.type }}"></span>
         </div>
-        <div class="affiliation-name">{{ org.name }}</div>
+        <div class="affiliation-name">{{ org.short | default: org.name }}</div>
         <div class="affiliation-years">{{ org.years }}</div>
         <div class="affiliation-role">{{ org.role }}</div>
       </a>
     {% endfor %}
   </div>
   <div class="affiliations-legend">
-    <span><span class="research"></span>Research and education</span>
+    <span><span class="research"></span>Research and Academia</span>
     <span><span class="industry"></span>Industry</span>
   </div>
 </div>

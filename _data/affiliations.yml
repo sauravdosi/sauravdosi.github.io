@@ -1,7 +1,9 @@
 # Institutions shown as a logo timeline on the home page, most recent first.
-# type: research (research and education) or industry
+# type: research (research and academia) or industry
 # logo: file in assets/img/affiliations/ (leave blank to show the initials)
+# short: optional label under the logo when the full name is too long for one line
 - name: Weill Cornell Medicine
+  short: Weill Cornell
   initials: WCM
   url: https://weill.cornell.edu/
   logo: wcm.png
@@ -18,6 +20,7 @@
   type: research
 
 - name: Boehringer Ingelheim
+  short: Boehringer
   initials: BI
   url: https://www.boehringer-ingelheim.com/us
   logo: boehringer.png

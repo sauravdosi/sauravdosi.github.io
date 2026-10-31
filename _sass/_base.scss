@@ -799,9 +799,9 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
 
-      // linked (remote) previews have no figure wrapper, so cap them to the column
+      // fill the thumbnail column so every preview (image or GIF) is the same width
       .preview {
-        max-width: 100%;
+        width: 100%;
         height: auto;
       }
 
