@@ -3,9 +3,8 @@
 # logo: file in assets/img/affiliations/ (leave blank to show the initials)
 # short: optional label under the logo when the full name is too long for one line
 # role: two lines shown in the hover pill, as [first line, second line]
-- name: Weill Cornell Medicine
-  short: Weill Cornell
-  initials: WCM
+- name: Cornell University
+  initials: CU
   url: https://weill.cornell.edu/
   logo: wcm.png
   years: 2025 – Now
