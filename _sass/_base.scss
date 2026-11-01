@@ -838,13 +838,17 @@ footer.sticky-bottom {
       }
 
       .author {
-        // co-author links stay in the text colour; only my own name is purple
+        // smaller than the title; co-authors turn purple on hover, my own name always is
+        font-size: 0.93rem;
+
         a {
           color: var(--global-text-color);
           border-bottom: 1px dashed var(--global-text-color-light);
+          transition: color 0.2s ease, border-color 0.2s ease;
 
           &:hover {
-            color: var(--global-text-color);
+            color: var(--global-theme-color);
+            border-bottom-color: var(--global-theme-color);
             border-bottom-style: solid;
             text-decoration: none;
           }
